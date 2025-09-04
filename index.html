@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ee5f87056.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Mark Ervin</span></h1>
+                <h2>And I'm a <span class="multi-text"></span></h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/about-pic.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am an IT professional with a National Certificate in Computer Systems Servicing, equipped with strong technical and problem-solving skills. Currently expanding my expertise in Web Development, Data Analytics, and Python programming to build a solid foundation in modern technology. Known for being analytical, detail-oriented, adaptable, and resourceful, I am passionate about continuous learning and applying innovative solutions. My goal is to grow as a versatile IT professional while contributing value through technology.
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expreience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Design and build interactive, user-friendly web applications</li>
+
+                                <li><span>Data Analytics</span><br>Collect, interpret, and visualize data to help guide decision-making</li>
+
+                                <li><span>Graphic Design</span><br>Create and craft visually appealing designs</li>
+
+                                <li><span>Systems Support</span><br>Troubleshoot software, hardware, and network systems</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="expreience">
+                            <ul>
+                                <li><span>Part-time College Instructor</span><br>2024<br>Southern Philippines Agri-business and Marine and Aquatic School of Technology</li>
+
+                                <li><span>Warehouse Incharge</span><br>2022 - 2024<br>Venray Construction Corporation</li>
+
+                                <li><span>DESO Technical Support Staff</span><br>2022<br>COMELEC - During 2022 NLE</li>
+                                
+                                <li><span>Data Encoder</span><br>2017 - 2018<br>Axelum Resources Corporation</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>Computer Systems Servicing NC II<br>Lorenz Insternational Skills Training Academy, Inc.</li>
+
+                                <li><span>2017</span><br>Bachelor of Science in Information Technology<br>Gingoog City Colleges, Inc.</li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I can build responsive and user-friendly websites tailored to client needs.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analytics</h2>
+                    <p>I can analyze datasets to uncover insights and support data-driven decisions.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Design</h2>
+                    <p>I can create visually appealing designs that effectively communicate brand messages.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>Computer Systems Servicing</h2>
+                    <p>I can troubleshoot, repair, and maintain computer systems for optimal performance.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/projects.png">
+                    <div class="layer">
+                        <h3>Landing Page Design</h3>
+                        <p>Landing Page Design for Gingoog City Colleges, Inc. This landing page is designed to be a dynamic and welcoming gateway for prospective students, parents, and the local community. The design will focus on clarity, accessibility, and a strong call to action, reflecting the school's commitment to quality education and community engagement.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/projects2.png">
+                    <div class="layer">
+                        <h3>E-commerce Website Design</h3>
+                        <p>This e-commerce website design is fully responsive to ensure a seamless experience on any device, from a desktop computer at a contractor's office to a mobile phone on a job site.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/projects3.png">
+                    <div class="layer">
+                        <h3>Mobile Food Delivery App Design</h3>
+                        <p>Mobile Food Delivery App Design for OrderIt, a local food delivery company. This mobile food delivery app is designed for speed, simplicity, and a delightful user experience. The interface is intuitive, allowing users to quickly discover new restaurants, place orders, and track their delivery with ease.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>markervinabao.me@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+63967 8420 710</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/m4rk3rv1n" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/mark-ervin-abao/"><i class="fa-brands fa-square-linkedin"></i></a>
+                        <a href="https://github.com/bandoxdev"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.behance.net/markervinabao"><i class="fa-brands fa-square-behance"></i></a>
+                    </div>
+
+                    <a href="assets/cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Mark Ervin. All Rights Reserved.</p>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
