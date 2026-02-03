@@ -120,7 +120,7 @@ nav ul li a:hover::after {
 
 .tab-links {
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -148,7 +148,7 @@ nav ul li a:hover::after {
 
 .tab-contents ul li span {
     color: #b54769;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .tab-contents {
@@ -450,4 +450,5 @@ nav .fa-solid {
     .footer {
         font-size: 14px;
     }
+
 }
